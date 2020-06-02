@@ -13,3 +13,20 @@ $color-grey-dark-2: #6D5D4B;
 // FONT VARIABLES
 $font-primary: 'Nunito', sans-serif;
 $font-display: 'Josefin Sans', sans-serif;
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*, 
+*:after,
+*:before {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: $color-primary;
+    color: $color-grey-dark-2;
+    font-weight: 300;
+}
